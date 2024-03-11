@@ -17,7 +17,7 @@ class MiApp0538 extends StatelessWidget {
         "/": (context) => PantallaIni_0538(),
         "/Pantalla1_0538": (context) => Pantalla1_0538(),
         "/Pantalla2_0538": (context) => Pantalla2_0538(),
-      }, //fin ruta paginas
+      }, //fin ruta pagina
     );
   } //fin widget
 } //fin app
