@@ -9,7 +9,7 @@ class Pantalla1_0538 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla 1  rivera0538'),
+        title: Text('Pantalla 1  Rivera0538'),
         backgroundColor: Colors.grey,
       ),
       body: Center(
