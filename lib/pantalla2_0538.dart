@@ -9,12 +9,22 @@ class Pantalla2_0538 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla 2 rivera0538'),
-        backgroundColor: Colors.blue,
+        title: const Text('Pantalla 2 rivera0538'),
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: Text(
-          'pantalla2',
+        child: Container(
+          color: Colors.blueAccent,
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 700,
+            maxWidth: 700,
+          ),
+          child: Text(
+            'pantalla2 Rivera 0538',
+            style: TextStyle(fontSize: 35, color: Color(0xffffffff)),
+          ),
         ),
       ),
     );

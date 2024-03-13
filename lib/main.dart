@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rivera0538/pantalla3_0538.dart';
 import 'package:rivera0538/pantalla2_0538.dart';
 import 'package:rivera0538/pantalla1_0538.dart';
 import 'package:rivera0538/pantallaini_0538.dart';
@@ -17,7 +18,8 @@ class MiApp0538 extends StatelessWidget {
         "/": (context) => PantallaIni_0538(),
         "/Pantalla1_0538": (context) => Pantalla1_0538(),
         "/Pantalla2_0538": (context) => Pantalla2_0538(),
-      }, //fin ruta pagina
+        "/Pantalla3_0538": (context) => Pantalla3_0538(),
+      }, //fin ruta paginas
     );
   } //fin widget
 } //fin app

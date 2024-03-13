@@ -9,14 +9,21 @@ class Pantalla1_0538 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla 1  rivera0538'),
-        backgroundColor: Colors.grey,
+        title: const Text('Pantalla 1  rivera0538'),
+        backgroundColor: Colors.brown,
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(onPressed: () {}, child: Text("Pantalla 1"))
-          ],
+        child: Container(
+          color: Colors.brown,
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla1 Rivera 0538',
+            style: TextStyle(fontSize: 45, color: Color(0xffffffff)),
+          ),
         ),
       ),
     );
